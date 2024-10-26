@@ -1,0 +1,167 @@
+{
+    "documents": [
+        {
+            "type_document": "CIN",
+            "description": "Carte d'Identité Nationale",
+            "champs": [
+                {
+                    "nom": "N°",
+                    "type": "string",
+                    "exemple": "123456789012"
+                },
+                {
+                    "nom": "Nom",
+                    "type": "string",
+                    "exemple": "Ranaivo Andrianina"
+                },
+                {
+                    "nom": "Prénoms",
+                    "type": "string",
+                    "exemple": "Ranaivo Andrianina"
+                },
+                {
+                    "nom": "Né(e) le",
+                    "type": "date",
+                    "format": "yyyy-mm-dd",
+                    "exemple": "1990-08-15"
+                },
+                {
+                    "nom": "à",
+                    "type": "string",
+                    "exemple": "Antananarivo"
+                },
+                {
+                    "nom": "Signe particulier",
+                    "type": "string",
+                    "exemple": "1m60"
+                },
+                {
+                    "nom": "Domicile",
+                    "type": "string",
+                    "exemple": "Lot II P 125 Antanimena"
+                },
+                {
+                    "nom": "Arrondissement",
+                    "type": "string",
+                    "exemple": "Antananarivo IV"
+                },
+                {
+                    "nom": "Profession",
+                    "type": "string",
+                    "exemple": "Mpianatra"
+                },
+                {
+                    "nom": "Père",
+                    "type": "string",
+                    "exemple": "Ranaivo Andrianina"
+                },
+                {
+                    "nom": "Mère",
+                    "type": "string",
+                    "exemple": "Ranaivo Pierrette"
+                },
+                {
+                    "nom": "Fait à",
+                    "type": "string",
+                    "exemple": "Antananarivo IV"
+                },
+                {
+                    "nom": "Le",
+                    "type": "string",
+                    "format": "yyyy-mm-dd",
+                    "exemple": "2024-08-15"
+                }
+            ]
+        },
+        {
+            "type_document": "Certificat de Résidence",
+            "description": "Document prouvant la résidence d'une personne",
+            "champs": [
+                {
+                    "nom": "Nom(s)",
+                    "type": "string",
+                    "exemple": "CR-2023-015678"
+                },
+                {
+                    "nom": "Prénom(s)",
+                    "type": "string",
+                    "exemple": "Ranaivo Andrianina"
+                },
+                {
+                    "nom": "Adresse",
+                    "type": "string",
+                    "exemple": "Lot II P 125 Antanimena"
+                },
+                {
+                    "nom": "Date de naissance",
+                    "type": "string",
+                    "format": "yyyy-mm-dd",
+                    "exemple": "2023-09-12"
+                },
+                {
+                    "nom": "Lieu de naissance",
+                    "type": "string",
+                    "exemple": "Antananarivo"
+                },
+                {
+                    "nom": "Date d'emission",
+                    "type": "date",
+                    "format": "yyyy-mm-dd",
+                    "exemple": "2023-09-12"
+                },
+                {
+                    "nom": "validite",
+                    "type": "integer",
+                    "unite": "mois",
+                    "exemple": 3
+                }
+            ]
+        },
+        {
+            "type_document": "RIB",
+            "description": "Relevé d'Identité Bancaire",
+            "champs": [
+                {
+                    "nom": "N° Compte",
+                    "type": "string",
+                    "exemple": "00010678901234567890"
+                },
+                {
+                    "nom": "Titulaire du compte",
+                    "type": "string",
+                    "exemple": "00010678901234567890"
+                },
+                {
+                    "nom": "Banque",
+                    "type": "string",
+                    "exemple": "BFV-SG"
+                },
+                {
+                    "nom": "Domiciliation",
+                    "type": "string",
+                    "exemple": "CRCM PARIS AG GDS COMPTES 18 RUE DE LA ROCHEFOUCAULD 75009 PARIS"
+                },
+                {
+                    "nom": "Guichet",
+                    "type": "string",
+                    "exemple": "00598"
+                },
+                {
+                    "nom": "RIB",
+                    "type": "string",
+                    "exemple": "97800598001"
+                },
+                {
+                    "nom": "Clé",
+                    "type": "number",
+                    "exemple": "78"
+                },
+                {
+                    "nom": "AGENCE",
+                    "type": "string",
+                    "exemple": "BFV-SG, Antanimena"
+                }
+            ]
+        }
+    ]
+}

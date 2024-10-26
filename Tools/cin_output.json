@@ -1,0 +1,108 @@
+{
+    "type_document": "CIN",
+    "status": "success",
+    "message": "Extraction completed",
+    "extracted_data": {
+        "N°": {
+            "value": "123456789012",
+            "confidence": 0.95,
+            "type": "string",
+            "format": null
+        },
+        "Nom": {
+            "value": "Ranaivo Andrianina",
+            "confidence": 0.89,
+            "type": "string",
+            "format": null
+        },
+        "Prénoms": {
+            "value": "Ranaivo Andrianina",
+            "confidence": 0.89,
+            "type": "string",
+            "format": null
+        },
+        "Né(e) le": {
+            "value": "1990-08-15",
+            "confidence": 0.92,
+            "type": "date",
+            "format": "yyyy-mm-dd"
+        },
+        "à": {
+            "value": "Antananarivo",
+            "confidence": 0.88,
+            "type": "string",
+            "format": null
+        },
+        "Signe particulier": {
+            "value": "1m60",
+            "confidence": 0.85,
+            "type": "string",
+            "format": null
+        },
+        "Domicile": {
+            "value": "Lot II P 125 Antanimena",
+            "confidence": 0.87,
+            "type": "string",
+            "format": null
+        },
+        "Arrondissement": {
+            "value": "Antananarivo IV",
+            "confidence": 0.90,
+            "type": "string",
+            "format": null
+        },
+        "Profession": {
+            "value": "Mpianatra",
+            "confidence": 0.88,
+            "type": "string",
+            "format": null
+        },
+        "Père": {
+            "value": "Ranaivo Andrianina",
+            "confidence": 0.86,
+            "type": "string",
+            "format": null
+        },
+        "Mère": {
+            "value": "Ranaivo Pierrette",
+            "confidence": 0.86,
+            "type": "string",
+            "format": null
+        },
+        "Fait à": {
+            "value": "Antananarivo IV",
+            "confidence": 0.91,
+            "type": "string",
+            "format": null
+        },
+        "Le": {
+            "value": "2024-08-15",
+            "confidence": 0.93,
+            "type": "date",
+            "format": "yyyy-mm-dd"
+        }
+    },
+    "confidence_score": 0.89,
+    "metadata": {
+        "extraction_date": "2024-10-22T14:30:00",
+        "success": true,
+        "source_type": "image",
+        "processing_time": "1.2s",
+        "extraction_method": "OCR",
+        "version": "1.0",
+        "file_info": {
+            "original_filename": "cin_example.jpg",
+            "file_size": "1024kb",
+            "file_type": "image/jpeg"
+        },
+        "quality_metrics": {
+            "image_quality": "high",
+            "ocr_confidence": 0.89,
+            "number_of_fields_extracted": 13,
+            "number_of_fields_missing": 0
+        }
+    },
+    "raw_text": "REPOBLIKAN'I MADAGASIKARA\nTanindrazana - Fahafahana - Fandrosoana\nKARATRA FAHAZAHOAN-DALANA\nCARTE NATIONALE D'IDENTITE\nN° 123456789012\nNom: Ranaivo Andrianina\nPrénoms: Ranaivo Andrianina\nNé(e) le: 15-08-1990 à Antananarivo\nSigne particulier: 1m60\nDomicile: Lot II P 125 Antanimena\nArrondissement: Antananarivo IV\nProfession: Mpianatra\nPère: Ranaivo Andrianina\nMère: Ranaivo Pierrette\nFait à Antananarivo IV\nLe 15-08-2024",
+    "errors": [],
+    "warnings": []
+}
